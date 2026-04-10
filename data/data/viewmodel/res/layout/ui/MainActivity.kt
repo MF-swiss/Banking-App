@@ -7,6 +7,8 @@ import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import bankingapp.R
 import bankingapp.viewmodel.BankViewModel
+import android.content.Intent
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +17,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        kotlin
+        val openTransferButton: Button = findViewById(R.id.openTransferButton)
+
+        openTransferButton.setOnClickListener {
+            val intent = Intent(this, TransferActivity::class.java)
+            startActivity(intent)
+        }
 
         val accountsText: TextView = findViewById(R.id.accountsText)
 
