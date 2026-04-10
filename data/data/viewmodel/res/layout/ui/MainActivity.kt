@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        kotlin
         val openTransferButton: Button = findViewById(R.id.openTransferButton)
 
         openTransferButton.setOnClickListener {

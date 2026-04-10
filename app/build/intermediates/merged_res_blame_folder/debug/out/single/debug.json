@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "bankingapp-merged_res-37:/layout_activity_transfer.xml.flat",
+        "source": "bankingapp-main-39:/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "bankingapp-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "bankingapp-main-39:/layout/activity_main.xml"
+    }
+]
